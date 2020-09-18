@@ -1,0 +1,141 @@
+body{
+  background-color: pink;
+  
+  background-image: linear-gradient(#020202, #020202,#1d2d50,#0f4c75,#9d65c9,#d789d7,#fff);
+}
+
+
+canvas {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+}
+.container-fluid{
+  padding: 1% 8% 30%;
+}
+
+/* Title */
+a{
+  color: #e89f71;
+}
+
+a:hover{
+  color: #8675a9;
+  text-decoration: none;
+}
+.heart{
+  color: #ffc1f3;
+}
+
+.heart:hover{
+  color: red;
+}
+.Mwishes{
+
+  font-family: 'Pacifico', cursive;
+  font-size: 5.3rem;
+}
+.wishes{
+    position: absolute;
+  left: 20%;
+  text-align: center;
+  padding-top:  50px;
+  
+}
+
+
+
+/* Rotate Image */
+.allpho{
+  padding-top: 25%;
+}
+
+.image{
+  position: relative;
+  top: 0;
+  left: 15%;
+  width: 60%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(-25deg);
+  cursor: pointer;
+}
+.image2{
+  position: relative;
+  top: 9%;
+  left: 15%;
+  width: 60%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(23deg);
+    cursor: pointer;
+}
+.image3{
+  position: relative;
+  top: 0;
+  left: 16%;
+  width: 60%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(-18deg);
+    cursor: pointer;
+}
+.image4{
+  position: relative;
+  top: 0;
+  left: 12%;
+  width: 75%;
+  height: auto;
+  border-radius: 5%;
+  transform: rotate(18deg);
+    cursor: pointer;
+}
+.image5{
+  position: relative;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+  /*transform: rotate(18deg);*/
+    cursor: pointer;
+}
+/* Navigation Bar */
+
+.img-responsive2{
+  width: 50px;
+  height: 50px;
+  border-radius:35%;
+}
+
+.navbar-brand{
+  font-size: 1.8rem;
+
+}
+
+.navbar{
+  padding: 2rem 0 4.5rem;
+}
+.nav-item{
+  padding: 0 7px;
+}
+.nav-link{
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/*charater section*/
+h3{
+  font-family: "Montserrat-bold"
+}
+
+#S2{
+  padding: 5% 8%;
+ text-align: center;
+}
+.charater-box{
+ padding: 3%;
+}
